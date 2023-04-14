@@ -231,3 +231,18 @@ public static void upload(String filePath, String bucketName) throws IOException
     }
 
 }
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+
+        // Create a CarDetector object
+
+        CarDetector detector = new CarDetector();
+
+        // Start the detector
+
+        detector.start();
+
+    }
+
+}
